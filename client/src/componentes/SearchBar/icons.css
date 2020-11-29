@@ -1,0 +1,13 @@
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.usuario{
+    margin-left: 15px;
+  }
+  .carrito{
+    margin-left: 20px;
+  }
+  

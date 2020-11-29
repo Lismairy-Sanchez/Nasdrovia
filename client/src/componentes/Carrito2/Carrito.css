@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cont-general {
+  font-family: "Open Sans";
+}
+/* estilos carrito de compras */
+.carrito-general {
+  margin-top: -70px;
+}
+.cont-uno {
+  width: 80%;
+  margin: auto;
+  padding: 0 10px 0 20px;
+}
+.cont-uno .sc {
+  cursor: pointer;
+  transition: 0.4s all;
+  color: #015386;
+  display: inline-block;
+  width: 160px;
+}
+.cont-uno .sc:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+.titulo-carrito {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #015386;
+}
+.cont-general {
+  background: #fff;
+  padding: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  width: 80%;
+  margin: auto;
+}
+.cont-image {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+.cont-image:hover > .sombra-imagen {
+  top: 0;
+}
+.cont-image > .sombra-imagen {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.cont-image img {
+  width: 90%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.cont-body {
+  width: 68%;
+}
+.cont-body > h4 {
+  font-size: 18px;
+  font-weight: 300;
+}
+.cont-body > p {
+  font-size: 14px;
+  color: rgba(31, 31, 31, 0.6);
+  font-weight: 300;
+}
+
+.fa-minus,
+.fa-plus {
+  color: #000;
+}
+.cont-cantidad {
+  border: 1px solid #ccc;
+  width: 90px;
+  position: relative;
+  height: 24px;
+  top: 8px;
+}
+.cont-cantidad small {
+  width: 30px;
+  height: 100%;
+  padding: 4px 0;
+  position: relative;
+  bottom: 1px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.cont-cantidad small i {
+  cursor: pointer;
+  font-size: 12px;
+}
+.cont-subtotal {
+  width: 100px;
+  position: relative;
+  left: 28px;
+  align-items: flex-start;
+}
+.cont-subtotal small {
+  font-size: 16px;
+  position: relative;
+  bottom: 35px;
+}
+.cont-subtotal .eliminar {
+  font-family: Helvetica, sans-serif;
+  cursor: pointer;
+  color: rgba(31, 31, 31, 0.6);
+}
+
+.cant {
+  font-size: 14px;
+}
+.eliminar {
+  font-weight: bold;
+}

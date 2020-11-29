@@ -1,0 +1,205 @@
+.general-cuenta{
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.titulo-micuenta{
+    cursor: pointer;
+}
+.general-cuenta .texto-normal{
+    margin-bottom: 30px;
+}
+.cerrar-sesion{
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s all;
+}
+.cerrar-sesion:hover{
+   text-decoration: underline;
+}
+.general-cuenta h2{
+    font-weight: 900;
+    margin-bottom: 40px;
+    color:  #015386;
+}
+.general-cuenta .subtitulos-cuenta{
+    font-weight: 900;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#015386;
+}
+.puntos p{
+    margin:  0;
+}
+.p100{
+    font-weight: bold;
+    font-size: 45px;
+    color:#015386;
+}
+.sn,.p900{
+    color: rgb(131, 131, 131);
+    color:#015386;
+    font-weight: bold;
+}
+.p900{
+    font-size: 22px;
+}
+.puntos-totales{
+    color:#015386;
+}
+.linea-puntos{
+    border-bottom: 2px solid  #0173b9;
+    margin-top: 10px;
+    position: relative;
+    top: 2px;
+}
+.sublinea{
+    width: 120px;
+    height: 10px;
+    background: #015386;
+    position: absolute;
+    z-index: 100;
+    top: -4px;
+}
+
+.totales,.siguiente{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-recomendada{
+    width: 145px;
+    height: 300px;
+    border: 1px solid transparent;
+    margin-bottom: 300px;
+    cursor: pointer;
+
+    position: relative;
+}
+.card-recomendada:hover{
+
+    border: 1px solid #015386;
+}
+.fa-heart{
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+    right: 10px;
+ 
+    
+}
+
+.head-card{
+    width: 100%;
+    height: 60%;
+    padding: 5px;
+    background-color: rgb(236, 236, 236);
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+  
+  
+}
+.productos-recomendados{
+  
+    margin-top: 80px;
+}
+.head-card>img{
+    width: 100%; 
+    transition: .4s all;
+}
+.head-card:hover >.pola{
+ 
+  transform: translateY(-80px);
+
+}
+
+.card-bodyre{
+    width: 100%;
+    height: 40%;
+    padding: 5px;
+    position: relative;
+}
+
+.etiqueta-pola{
+    background-color: #000;
+    background: #fff;
+    font-size: 12px;
+    position: absolute;
+    display: inline-block;
+    width:160px;
+    bottom: 196px;
+    left: -55px;
+    font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    color: #000;
+    letter-spacing: 2px;
+    padding-left: 12px;
+    border-radius: 2px;
+    font-weight: 600;
+    transform: rotate(270deg);
+}
+.card-bodyre>p{
+   font-size: 12px;
+   margin: 0;
+   margin-top: 10px;
+   font-weight: 600;
+}
+.card-bodyre>small{
+    font-size: 12px;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 600;
+ }
+ .contenido-carrito{
+     width: 640px;
+     height: 320px;
+     border: 1px solid #015386;;
+     padding: 20px;
+ }
+ .contenido-carrito>h4{
+    font-size: 18px;
+    font-weight: 900;
+    color:#015386;
+}
+.contenido-carrito>small{
+    font-size: 12px;
+}
+.productos-contenido{
+
+    margin-top: 30px;
+}
+.productos-contenido>img{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    background: rgb(241, 241, 241);
+    cursor: pointer;
+    padding: 12px;
+}
+.btn-verCarrito{
+    background-color: #015386;
+    color: #fff;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .4s all;
+}
+.btn-verCarrito:focus{
+   outline: none;
+}
+.btn-verCarrito:active{
+    transform: scale(.96);
+ }
+ .btn-verCarrito:hover{
+    opacity: .9;
+ }
+ .flecha-larga{
+     font-size: 16px;
+     position: relative;
+     top: 2px;
+ }

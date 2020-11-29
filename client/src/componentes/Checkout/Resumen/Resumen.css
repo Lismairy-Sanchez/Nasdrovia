@@ -1,0 +1,115 @@
+.contenedor-resumen {
+  position: relative;
+  width: 300px;
+  background-color: #ebebeb;
+  padding: 6px;
+}
+.contenedor-resumen > h6 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.contenido-resumen {
+  background: white;
+  padding: 8px 6px;
+}
+.contenido-resumen p {
+  margin: 0;
+  font-size: 14px;
+}
+.precio-resumen {
+  padding: 6px 0;
+  border-bottom: 1px solid #ccc;
+  margin: 5px 0;
+}
+.precio-total-resumen {
+  font-weight: bold;
+  border: none;
+}
+.financiaciacion {
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+}
+.financiaciacion > .cuotas {
+  font-weight: bold;
+}
+.producto-resumen {
+  padding: 14px 6px;
+  border-bottom: 1px solid #ccc;
+}
+.sin {
+  border: none;
+}
+.producto-resumen > img {
+  width: 60px;
+  object-fit: contain;
+}
+.datos-item h5 {
+  font-size: 15px;
+  margin: 0;
+  font-weight: bold;
+}
+.promocional {
+  padding: 8px;
+}
+.promocional p {
+  font-weight: bold;
+}
+.promocional > .fa-angle-down {
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+}
+.contenedor-codigo-introducir {
+  position: relative;
+  overflow: hidden;
+}
+.introducir-codigo {
+  border-top: 1px solid #ccc;
+  padding: 20px 6px;
+  position: absolute;
+  top: -230px;
+}
+.pedir-codigo {
+  top: 0;
+  position: relative;
+}
+.linea-codigo {
+  content: "";
+  position: absolute;
+  width: 96%;
+  height: 1px;
+  background-color: #ccc;
+  left: 6px;
+  top: 55px;
+}
+.introducir-codigo > input {
+  width: 100%;
+  font-size: 13px;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-bottom: 3px solid transparent;
+}
+.introducir-codigo > input:focus {
+  border-bottom: 3px solid #000;
+}
+.introducir-codigo > input:focus ~ .linea-codigo {
+  opacity: 0;
+}
+.introducir-codigo > input:valid ~ .btn-descuento {
+  opacity: 1;
+}
+.clausula {
+  color: rgb(180, 179, 179);
+  line-height: 15px;
+}
+.btn-descuento {
+  width: 100%;
+  padding: 8px;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: 0.4s all;
+  font-weight: 600;
+}

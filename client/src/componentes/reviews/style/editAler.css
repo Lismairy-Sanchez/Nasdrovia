@@ -1,0 +1,68 @@
+.containerWindow-editAlert-css {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr 1fr;
+      grid-template-columns: 5fr 1fr;
+  -ms-grid-rows: 1fr 1fr 5fr 1fr;
+      grid-template-rows: 1fr 1fr 5fr 1fr;
+  border: 2px solid #3c3c3c;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 0;
+  height: 50vh;
+  opacity: 0;
+}
+
+.containerWindow-editAlert-css .closeWindow-css {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.containerWindow-editAlert-css .reset-button-css {
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin-top: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.containerWindow-editAlert-css .star-container-css {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+
+.containerWindow-editAlert-css .textArea-css {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+}
+
+.containerWindow-editAlert-css .button-review-css {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+/*# sourceMappingURL=editAler.css.map */

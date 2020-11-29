@@ -1,0 +1,12 @@
+.ads {
+  width: 100vw !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  max-height: 300px !important;
+}
+.slide {
+  max-height: 300px !important;
+  margin-top: auto;
+}
+

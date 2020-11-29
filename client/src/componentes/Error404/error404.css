@@ -1,0 +1,10 @@
+.error {
+  background-image: url("../../Multimedia/error404.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}

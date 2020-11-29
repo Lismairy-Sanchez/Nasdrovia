@@ -1,0 +1,26 @@
+
+.anuncios .fa-wine-bottle{
+    font-size: 20px;
+    transition: .4s all;
+    cursor: pointer;
+}
+.b1{
+    color: #008200;
+}
+.b1:hover{
+    color: rgb(255, 208, 0);
+}
+.b2{
+ transform: rotate(-90deg);
+ color: rgb(255, 208, 0);
+}
+.b2:hover{
+    color: #008200;
+}
+.anuncios{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+.anuncios>small{
+    font-weight: 600;
+}

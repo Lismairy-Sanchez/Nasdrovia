@@ -1,0 +1,76 @@
+.allReviews {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #3c3c3c;
+  margin-top: 15px;
+  border-radius: 7px;
+  padding: 10px 30px;
+  box-shadow: 0px 25px 35px #015386;
+  width: 90vw;
+}
+.submitbtn-css {
+  display: inline-block;
+  border: none;
+
+  padding: 1rem 2rem;
+  margin: 0;
+  margin-top: 10px !important;
+  text-decoration: none;
+  background: #015386;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.submitbtn-css:hover,
+.submitbtn-css:focus {
+  background: #0074b1;
+}
+
+.submitbtn-css:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.submitbtn-css:active {
+  transform: scale(0.99);
+}
+
+.submitbtn-css {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  margin-top: 10px !important;
+  text-decoration: none;
+  background: #015386;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.submitbtn-css:hover,
+.submitbtn-css:focus {
+  background: #0074b1;
+}
+
+.submitbtn-css:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.submitbtn-css:active {
+  transform: scale(0.99);
+}

@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.general-product-info {
+  display: grid;
+  font-family: "Open Sans";
+}
+.texto-nombre-seccion {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  font-weight: 300;
+  position: relative;
+  left: 35px;
+  font-size: 15px;
+}
+.texto-nombre-seccion span {
+  color: grey;
+}
+.general-product-info aside img {
+  width: 60px;
+  border: 1px solid #ccc;
+  padding: 4px;
+  margin-bottom: 20px;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.general-product-info main img {
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  padding-top: 10px;
+  object-fit: contain;
+  height: 500px;
+  width: 500px;
+}
+.general-product-info section {
+  padding: 20px;
+}
+.general-product-info section .nombre {
+  font-weight: 300;
+  color: #015386;
+}
+.general-product-info section > .descripcion {
+  font-weight: 400;
+  width: 260px;
+  font-size: 14px;
+}
+.general-product-info section h3 {
+  color: #015386;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 38px;
+}
+.general-product-info section .cantidadp span {
+  display: block;
+  font-size: 14px;
+  color: #003b5a;
+  margin: 0;
+}
+.general-product-info section .cantidadp input {
+  width: 70px;
+  padding: 4px 0px 4px 15px;
+  border: none;
+  font-size: 14px;
+  border: 1px solid #c2c2c2;
+}
+.general-product-info section .cantidadp input:focus {
+  outline: none;
+}
+.general-product-info section button {
+  margin-top: 20px;
+  border: none;
+  padding: 6px 14px;
+  width: 200px;
+  border-radius: 4px;
+  background: #d30208;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.4s all;
+}
+
+.general-product-info section button:focus {
+  outline: none;
+}
+.general-product-info section button:active {
+  transform: scale(0.98);
+}
+.cantidad-productInfo {
+  width: 100px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 8px;
+  align-items: center;
+  font-size: 16px;
+}
+.cantidad-productInfo > .fas {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.allReviews-css {
+  width: 100%;
+  display: grid;
+}

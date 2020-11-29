@@ -1,0 +1,32 @@
+.footer-css-full {
+  align-self: flex-end;
+  margin-bottom: -50px !important;
+  background-color: #015386;
+  height: 100%;
+}
+
+.container-footer-css {
+  background-color: #015386;
+  padding: 0 !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+
+  place-self: flex-end;
+}
+
+.texto {
+  color: white;
+}
+
+.iconos {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.as {
+  display: flex;
+  margin: 30px;
+}

@@ -1,0 +1,103 @@
+*{box-sizing: border-box;}
+body{font-family:  Arial, sans-serif;}
+.btn-nuevo:focus,.btn-buscar:focus,input:focus,textarea:focus,.btn-gproducto:focus,select:focus{outline: none;}
+.total{
+    width: 70%;
+    margin:70px auto;
+    padding:30px 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} 
+.general{position: relative;bottom: 70px;}
+.encabezado{
+    border-radius: 4px;
+    background-color:#015386;
+}
+
+ .contenedor-categorias{
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    /* border: 1px solid #ccc; */
+    /* border-top: 1px solid transparent; */
+    border-radius: 4px;
+    width: 102.5%;
+    position: relative;
+    right: 14px;
+
+}  
+.contenedor-categorias::-webkit-scrollbar {
+    display: none;
+}
+.fila-cat {
+   border: 1px solid #ccc;
+
+}
+
+#ncat{
+    color:#015386;
+}
+.grupo-header>input{
+    border-radius: 2px;
+    border: none;
+    padding: 2px 0;
+    padding-left: 8px;
+    color: rgba(0, 0, 0, .7);
+}
+.titulos{
+    border-radius: 3px;
+    background-color: #d30208;
+}
+
+
+.categorias-h  small{
+    background-color: #015386;
+    border-radius: 2px;
+    padding: 2px 0;
+    color: #fff;
+    margin-bottom: 2px;
+    width: 70px;
+}
+
+/* -------------BOTON AGREGAR PRODUCTO---------- */
+.btn-nuevo,.btn-buscar{
+    border: none;
+    transition: .4s all;
+    background-color: #d30208;
+    border-radius: 4px;
+    padding: 4px 14px;
+}
+.btn-nuevo:active,.btn-buscar:active,.btn-gproducto:active{transform: scale(.98);}
+/* -------------ICONOS---------- */
+.fas{cursor: pointer;transition: .4s all;}
+.fa-plus{
+ border-radius: 100%;
+ color:#d30208;
+ padding: 2px;
+}
+.fa-search{font-size: 14px;}
+.fa-trash{background-color:#d30208;border-radius: 2px;}
+.fa-pencil-alt{background-color:#015386;border-radius: 2px;}
+.fa-pencil-alt:hover,.fa-trash:hover{opacity: .8;}
+.fa-pencil-alt:active,.fa-trash:active{transform: scale(.95);}
+
+
+/* -------------MEDIAQUERIES---------- */
+@media(max-width:768px){
+    .titulo-lista{font-size: 20px;}
+    .btn-nuevo{font-size: 14px;padding: 4px 10px;}
+    .btn-buscar{font-size: 14px;}
+    .fa-search{font-size: 12px;}
+    input{
+        width: 110px;
+        padding: 2 8px;
+        font-size: 12px;
+        height: 22px;
+    }
+    .titulo-pro,.grupo-header>input,.categorias-h,.fas,.titulos{font-size: 14px;}
+    .general{border: none;}
+}
+

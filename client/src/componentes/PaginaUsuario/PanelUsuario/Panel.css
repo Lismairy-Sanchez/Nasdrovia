@@ -1,0 +1,29 @@
+
+.item-panel-usuario{
+    cursor: pointer;
+    margin: 8px 0;
+    font-weight: 400;
+}
+
+.item-activo{
+    color:#015386;
+    font-weight: 600;
+}
+.item-panel-usuario:hover{
+    text-decoration: underline;
+}
+.seccion-titulos{
+  
+    border-bottom: 1px solid #015386;
+    width: 240px;
+    padding-bottom: 40px;
+}
+.seccion-relleno{
+    margin-top: 40px;
+}
+.seccion-relleno>h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color:#015386;
+}

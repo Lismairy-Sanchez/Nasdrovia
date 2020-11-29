@@ -1,0 +1,46 @@
+.carroBoton-Container {
+  margin-left: 26px;
+  margin-top: -15px;
+}
+.carroBoton {
+  position: absolute;
+  background-color: #d0d0ff;
+  margin-top: 20px;
+  margin-left: -12px;
+  padding: 5px 10px;
+  color: #015386;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
+}
+.carroBoton:hover {
+  background-color: #eef;
+}
+.carroBotonMin {
+  opacity: 1;
+  visibility: visible;
+  position: absolute;
+  font-size: 14px !important;
+  background-color: #d0d0ff;
+  padding: 7px 10px;
+  margin: 30px 0px 0px -5px;
+  color: #015386;
+  border: none;
+  border-radius: 50%;
+}
+.carroBotonMin:hover {
+  background-color: #ddf;
+}
+.cantidad-carro {
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  margin-top: 29px;
+  margin-left: 13px;
+  padding: 10px 22px;
+  color: #015386;
+  border: none;
+  z-index: 1000;
+}

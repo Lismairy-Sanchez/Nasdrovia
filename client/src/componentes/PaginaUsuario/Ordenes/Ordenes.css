@@ -1,0 +1,99 @@
+.general{
+    margin-top: 75px;
+}
+.titulos{
+    font-size: 14px; 
+}
+
+.titulo-lista {
+    font-size: 20px;
+}
+.encabezado{
+    font-size: 15px;
+}
+.categorias-h{
+    font-size: 14px;
+}
+.relleno{
+    width: 100%;
+    height: 500px;
+}
+
+.orden-item{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+}
+.orden-item h3{
+    font-size: 16px;
+}
+.titulo-orden-compra{
+    margin-bottom: 10px;
+}
+.titulo-orden-compra .btn-volver{
+    background-color: #e40613;
+    border: none;
+    color: #fff;
+    padding: 2px;
+    cursor: pointer;
+    width: 160px;
+    border-radius: 4px;
+    transition: .4s all;
+}
+.titulo-orden-compra .btn-volver:focus{
+    outline: none;
+}
+.titulo-orden-compra .btn-volver:active{
+    transform: scale(.97);
+}
+.imagen-item{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 4px;
+    transition: .4s all;  
+}
+.orden-item .producto-orden .imagen-item>img{
+   width: 100%;
+   height: 100%;
+   transition: .4s all;
+}
+.orden-item .producto-orden .imagen-item:hover>img{
+    transform: translateX(200px);
+
+ }
+ .orden-item .producto-orden .imagen-item:hover{
+  background: #fff;
+  border: none;
+ }
+
+.datos-item-orden{
+    padding: 5px;
+    margin: 0 5px;
+}
+.producto-orden>p{
+    font-size: 14px;
+}
+.datos-item-orden>p{
+  font-size: 14px;
+}
+.compra-usuario{
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    width: 100%;
+}
+.nocom{
+    font-weight: 600;
+}
+#empieza{
+    color: #e40613;
+    cursor: pointer;
+}
+#empieza:hover{
+   text-decoration: none;
+
+}

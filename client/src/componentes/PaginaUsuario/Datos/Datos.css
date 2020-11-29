@@ -1,0 +1,226 @@
+.seccion-datosUser>.titulo-seccion{
+    color:#015386;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size:28px;
+    box-shadow: none;
+
+}
+.titulo-fecha{
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:#015386;
+}
+.form-grupo-datos {
+    width: 85%;
+}
+.grupo-fecha{
+    width: 32%;
+    position: relative;
+}
+.grupo-fecha>input{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-bottom: 3px solid transparent;
+    overflow: hidden;
+  
+}
+.vf{
+    right: 8px;
+    top: 9px;
+}
+.grupo-fecha>input:focus{
+    border-bottom: 3px solid #000;
+}
+.grupo-fecha>input:valid{
+    border-bottom: 3px solid #015386;
+}
+.grupo-fecha>input:focus~.linea{
+    opacity: 0;
+}
+.grupo-fecha>input:valid~.linea{
+    opacity: 0;
+}
+.grupo-fecha>input:valid~.vf{
+    display: block;
+}
+.grupo-fecha>input:valid~.vd{
+    display: block;
+}
+.linea-dia::before,.linea-mes::before,.linea-año::before{
+        content: '';
+        position:absolute;
+        height: 1px;
+        background-color: #ccc;
+        left: 0;
+        bottom: 1px;
+        width:196px;
+}
+.titulo-sexo,.titulo-acceso{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color:#015386;
+  
+}
+.general-sexo{
+    display: flex;
+    align-items: center;
+    width: 300px;
+
+    justify-content: space-between;
+}
+.subgrupo-sexo{
+    display: flex;
+    position: relative;
+}
+.subgrupo-sexo>input{
+    position: relative;
+    font-size: 30px;
+    width: 25px;
+    height: 25px;
+    margin: 0 6px;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: transparent;
+    opacity: 1;
+    border-radius: 100%;
+    z-index: 100;
+   opacity: 0;
+}
+
+.subgrupo-sexo>input:checked~.simulacion{
+   background-color: #015386;
+
+}
+.subgrupo-sexo>input:checked~label{
+   color: #015386;
+
+ }
+.subgrupo-sexo>label{
+       cursor: pointer;
+       font-weight: 600;
+ }
+
+.simulacion{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #015386;
+    left: 6px;
+    border-radius: 100%;
+    bottom: 8px;
+    cursor: pointer;
+
+}
+ .simulacion2{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    left: 12px;
+    bottom: 14px;
+    border-radius: 100%;
+    cursor: pointer;
+ }
+ .grupo-acceso{
+ position: relative;
+ width: 300px;
+ display: block;
+ }
+ .grupo-acceso>input{
+    padding:6px 10px;
+    width: 320px;
+    border: 1px solid #ccc;
+    border-bottom: 3px solid transparent;
+    overflow: hidden;
+}
+.grupo-acceso>input:focus{
+    border-bottom: 3px solid #000;
+}
+.grupo-acceso>input:valid{
+    border-bottom: 3px solid #015386;
+}
+.grupo-acceso>input:focus~.linea{
+    opacity: 0;
+}
+.grupo-acceso>input:valid~.linea{
+    opacity: 0;
+}
+.vc{
+    right: 4px;
+    top: 8px;
+}
+.grupo-acceso>input:valid~.vc{
+    display: block;
+}
+
+.grupo-acceso>.linea-correo::before{
+    content: '';
+    position:absolute;
+    height: 1px;
+    background-color: #ccc;
+    left: 0;
+    bottom: 1px;
+    width:320px;
+}
+.subtitulo-contraseña{
+    font-weight: 600;
+    margin: 30px 0;
+    font-size: 14px;
+    color:#015386;
+    cursor: pointer;
+}
+.subtitulo-contraseña:hover{
+  text-decoration: underline;
+}
+.cambiar-contraseña{
+    width: 320px;
+    border-top: 1px solid #015386;
+    padding-top: 30px;
+
+}
+.seccion-datosUser>form>.btn-cambios, .btn-gestionar{
+    border: none;
+    background-color: #015386;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    transition: .4s all;
+    border-radius: 2px;
+    margin-top: 20px;
+    width: 250px;
+    border: 1px solid transparent;
+    font-weight: 600;
+}
+.seccion-datosUser>form>.btn-cambios:hover{
+  background-color: #fff;
+  color: #015386;
+  border: 1px solid #015386;
+}
+
+
+.seccion-datosUser>form>.btn-cambios:focus{
+    outline: none;
+}
+.seccion-datosUser>form>.btn-cambios:focus{
+   transform: scale(.98);
+}
+.btn-gestionar{
+    background-color: #fff;
+    border: 1px solid #015386;
+    color: #015386;
+    font-weight: 600;
+    transition: .4s all;
+    cursor: pointer;
+}
+.btn-gestionar:hover{
+    background-color:#015386 ;
+    color: #fff;
+}
+.btn-gestionar:focus{
+    outline: none;
+}
+.btn-gestionar:active{
+    transform: scale(.98);
+}

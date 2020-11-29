@@ -1,0 +1,123 @@
+.contenedor-panel {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  right: -320px;
+  height: 100vh;
+  z-index: 30000000;
+  background-color: #015386;
+  position: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.4s all;
+}
+.mostrar-carritopanel {
+  right: 0;
+}
+.ocultar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+}
+.titulo-pc {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0;
+}
+.titulo-pc > .fas {
+  font-size: 20px;
+  cursor: pointer;
+}
+.titulo-pc > span {
+  font-size: 22px;
+  position: relative;
+  left: 20px;
+  font-weight: 600;
+}
+.ver-carrito {
+  border-top: 1px solid #fff;
+  padding: 10px 20px;
+}
+.ver-carrito button {
+  background-color: transparent;
+  width: 76%;
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid #fff;
+  transition: 0.4s all;
+}
+.ver-carrito button:focus {
+  outline: none;
+}
+.ver-carrito button:hover {
+  background: #fff;
+  color: #015386;
+  border: 1px solid transparent;
+}
+.ver-carrito button:active {
+  transform: scale(0.97);
+}
+.item-panel {
+  display: flex;
+  color: #fff;
+  padding: 15px 10px;
+  align-items: center;
+}
+
+.img-panelc {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 30px;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.img-panelc:hover {
+  transform: rotateZ(45deg);
+}
+.subitem-panel > p {
+  margin: 0;
+  font-size: 14px;
+  text-align: start;
+  color: #fff;
+}
+.subitem-panel > .precio-subitem {
+  font-weight: 600;
+}
+.cantidad-productInfo {
+  height: 20px;
+  font-size: 14px;
+  width: 65px;
+  margin: 5px 0;
+  color: #000;
+  /*  background: #fff; */
+}
+.cantidad-productInfo > .fas {
+  font-size: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.subtotal-panel {
+  text-align: start;
+  padding: 10px 20px;
+  color: #fff;
+}
+.subtotal-panel > h4 {
+  font-size: 30px;
+}
+.subtotal-panel > p {
+  color: #fff;
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -1,0 +1,40 @@
+.categorias {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  z-index: 1000;
+}
+.categoriasFilter {
+  display: flex;
+  width: 99vw;
+  z-index: 1000;
+}
+.listaProductos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 4vw;
+  width: 90vw;
+  z-index: 100;
+}
+.botonFiltro,
+.checkboxex,
+.x,
+.check {
+  z-index: 100;
+  margin: 5px;
+  padding: 5px 12px;
+  background-color: #fff;
+  border: solid 2px #e6e6e6;
+  border-radius: 5px;
+  color: #015386 !important;
+  transition: 250ms;
+}
+.botonFiltro:hover,
+.checkboxex:hover,
+.x:hover {
+  cursor: pointer;
+  color: #0074b1 !important;
+  background-color: #f0f0ff;
+  z-index: 100;
+}

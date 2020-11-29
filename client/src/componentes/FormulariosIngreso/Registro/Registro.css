@@ -1,0 +1,113 @@
+
+.formulario-registro{
+    width: 400px;
+    margin: auto;
+    border: 1px solid #dad9d9;
+    padding: 20px ;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.formulario-registro>.mensaje-bienvenida>h2{
+    font-weight: normal;
+    font-size: 38px;
+}
+.formulario-registro>.mensaje-bienvenida>p>span{
+    color: #015386;
+    cursor: pointer;
+}
+.formulario-registro>.grupo-formulario{
+    position: relative;
+    width: 95%;
+    margin: 28px auto;
+}
+.formulario-registro>.grupo-formulario>.fas{
+    position: absolute;
+    top: 2px;
+    left: -12px;
+    color: #015386;
+}
+
+.formulario-registro>.grupo-formulario>input{
+    width: 95%;
+    text-align: start;
+     border: none;
+    border-bottom: 1px solid #ccc;
+    z-index: 100000;
+    transition: .1s all;
+    
+}
+.formulario-registro>.grupo-formulario>.etiqueta{
+   position:absolute;
+   top: 0px;
+   left: 8px;
+   transition: .4s all;
+   font-size: 14px;
+}
+
+.formulario-registro>.grupo-formulario>input:focus +label,
+.formulario-registro>.grupo-formulario>input:valid +label{
+    top: -24px;
+    padding-left: 0;
+    font-size: 12px;
+    color: #015386;
+}
+.arriba{
+    font-size: 12px;
+    top: -24px;
+    color: #015386;
+}
+.formulario-registro>.grupo-formulario>input:valid +i{
+    color: red;
+}
+.formulario-registro>.grupo-formulario>input:hover {
+    border-bottom: 1px solid #015386;
+}
+.formulario-registro>button{
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    background-color: #d30208;
+    color: #fff;
+    opacity: .8;
+    transition: .4s all;
+    border-radius: 4px;
+}
+.formulario-registro>button:hover{
+    opacity: 1;
+}
+.formulario-registro>button:focus{
+    outline: none;
+}
+.formulario-registro>button:active{
+    transform: scale(.98);
+}
+.error-registro,.error-contraseña{
+    background-color: #d30208;
+    color: #fff;
+    border-radius: 4px;
+    margin: 2px auto;
+    padding: 2px 0;
+    padding-top: 4px;
+    width: 90%;
+    opacity: .8;
+}
+
+.error-registro>.fas,.error-contraseña>.fas{
+   font-size: 13px;
+   margin: 0 3px;
+   position: relative;
+   bottom: 1px;
+}
+.error-registro>.fa-times{
+   background-color: #fff;
+   width: 18px;
+   height: 18px;
+   border-radius: 100%;
+   color:#d30208;
+   padding-top: 2px;
+   font-size: 14px;
+   position: relative;
+   top: 1px;
+}
+.fa-exclamation-circle{color: #fff;}

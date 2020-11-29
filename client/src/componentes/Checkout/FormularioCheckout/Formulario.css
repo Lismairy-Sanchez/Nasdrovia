@@ -1,0 +1,227 @@
+
+.form-grupo{
+    width: 620px;
+}
+.linea-nombre::before,.linea-apellido::before{
+    content: '';
+    position:absolute;
+    width: 600px;
+    height: 1px;
+    background-color: #ccc;
+    left: 0;
+    bottom: 1px;
+    width: 290px;
+}
+.validado{
+    color:  #015386;
+    background-color: transparent;
+    font-size: 20px;
+    position: absolute;
+    right: 25px;
+    top: 6px;
+    transition: .4s all;
+    display: none;
+}
+.form-grupo>.grupo>input{
+    width: 290px;
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    border-bottom: 3px solid transparent;
+
+}
+.form-grupo>.grupo>input:focus{
+    border-bottom: 3px solid #000;
+}
+.form-grupo>.grupo>input:focus ~.linea{
+    opacity: 0;
+}
+.form-grupo>.grupo>input:valid{
+    border-bottom: 3px solid #015386;
+}
+.form-grupo>.grupo>input:valid ~.linea{
+    opacity: 0;
+}
+.form-grupo>.grupo>input:valid +.validado{
+    display: block;
+}
+.grupo{
+    width: 50%;
+    position: relative;
+}
+.form-grupo-direccion{
+    position: relative;
+    width: 620px;
+}
+
+.form-grupo-direccion>.validado{
+    position: absolute;
+    display: none;
+    right: 25px;
+}
+.form-grupo-direccion>.input-direccion{
+    padding: 4px 10px;
+    width: 600px; 
+
+}
+.form-grupo-direccion>.input-direccion{
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    width: 600px; 
+    border-bottom: 3px solid transparent;
+  
+}
+.form-grupo-direccion>.input-direccion:focus{
+    border-bottom: 3px solid #000;
+}
+.form-grupo-direccion>.input-direccion:valid{
+    border-bottom: 3px solid #015386;
+}
+.form-grupo-direccion>.input-direccion:valid ~ .validado{
+    display: block;
+}
+.form-grupo-direccion>.input-direccion:valid ~.linea-direccion {
+    opacity: 0;
+}
+
+.form-grupo-direccion>.input-direccion:focus ~.linea-direccion {
+    opacity: 0;
+}
+.linea-direccion::before{
+    content: '';
+    position:absolute;
+    width: 600px;
+    height: 1px;
+    background-color: #ccc;
+    left: 0;
+    bottom: 17px;
+}
+
+.titulo-datos{
+    font-weight: 700;
+    font-size: 18px;
+   /*  border-top: 2px solid #000; */
+    border-top: 2px solid #015386; 
+    padding-top: 10px;
+    color:#015386; 
+
+    
+  }
+
+  .terminos{
+      width: 600px;
+  }
+  .terminos>small{
+ 
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .terminos>input{
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+      position: relative;
+      top: 5px; 
+  }
+  .terminos>input:checked{
+    background-color: #000;
+}
+
+  .terminos .nombre-terminos{
+      text-decoration: underline;
+      cursor: pointer;
+      width: 50px;
+      display: inline-block;
+     
+  }
+
+.opciones-entrega label{
+    cursor: pointer;
+    width: 100px;
+    border: 1px solid #ccc;
+    padding: 3px 2px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.opciones-entrega>input{
+    opacity: 0;
+    position: absolute;
+}
+.opciones-entrega>input:checked +label{
+    background-color: #015386;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.btn-checkout{
+    background-color: #015386;
+    color: #fff;
+    width: 120px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    transition: .4s all;
+}
+.btn-checkout:focus{
+    outline: none;
+}
+.btn-checkout:active{
+    transform: scale(.98);
+}
+.btn-checkout>.fas{
+   position: relative;
+   top: 2px;
+
+}
+
+.grupo-promociones{
+  
+    position: relative;
+    width: 160px;
+    color: #015386;
+ 
+}
+.grupo-promociones>small{
+   font-weight: 700;
+   line-height: 12px;
+
+}
+.grupo-promociones>.fa-arrow-circle-right{
+    position: absolute;
+    top: 22px;
+}
+.grupo-promociones>.fa-truck{
+    background-color: #000;
+    background-color: #015386;
+    position: relative;
+    color: #fff;
+    width: 40px;
+    height: 25px;
+    border-radius: 100%;
+    font-size: 12px;
+    padding-top:6px;
+    padding-left: 5px;
+
+    transition: .4s all;
+}
+.grupo-promociones>.fa-sync-alt{
+    background-color: #015386;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    color: #fff;
+    padding-top: 7px;
+    padding-left: 5px;
+    font-size: 12px; 
+    transition: .4s all;
+   
+}
+.grupo-promociones>.fa-exclamation-circle{
+    font-size: 22px;
+    transition: .4s all;
+    color: #015386;
+}
+.grupo-promociones>.fas:hover{
+    opacity: .7;
+}

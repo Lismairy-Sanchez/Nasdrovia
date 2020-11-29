@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.container-fluid {
+  padding: 0 !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  width: 65vw;
+}
+.ui-css {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  padding-right: 40px;
+}
+.navbar-custom {
+  background-color: #015386;
+}
+
+.carrito,
+.contenedor-login,
+.contenedor-salir,
+.admin {
+  margin-bottom: 8px;
+  margin-left: 20px;
+  font-size: x-large;
+  color: #e6e6e6;
+  position: relative;
+}
+.contenedor-salir > .items-carrito {
+  color: #000;
+  position: absolute;
+  top: 7px;
+  left: 12px;
+}
+.salir-client {
+  position: relative;
+  right: 20px;
+}
+.contenedor-login small,
+.contenedor-salir small,
+.admin small {
+  position: absolute;
+  top: 30px;
+  font-size: 12px;
+  left: -6px;
+  color: #e6e6e6;
+}
+.contenedor-salir .fas {
+  color: #e6e6e6;
+}
+#basic-nav-dropdown {
+  font-size: x-large;
+  color: #e6e6e6;
+}
+#basic-nav-dropdown:hover {
+  color: #d3d3d3;
+}
+.carrito:hover {
+  color: #d3d3d3;
+}
+.button:hover {
+  background-color: red;
+}
+.usuario {
+  margin-left: 15px;
+}
+
+.usuario-login {
+  color: #e6e6e6;
+}
+.fa-tools {
+  color: #e6e6e6;
+}
+.login-user {
+  font-size: 24px;
+  border-radius: 100%;
+  color: #e6e6e6;
+}
+
+.nav-Bar-css {
+  display: flex;
+  background-color: #015386;
+  width: 100% !important;
+}
+.form-inline {
+  flex-direction: none !important;
+  flex-wrap: nowrap !important;
+  align-items: flex-end !important;
+  margin-bottom: 10px;
+  
+
+}
+.usuario-login > p {
+  background-color: red;
+}
