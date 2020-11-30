@@ -75,9 +75,9 @@ Password: admin
 
 ![alt text](./Readme_images/home.png "Home Page")
 
-### Car:
+### Shopping Cart:
 
-![alt text](./Readme_images/carrito.png "Car")
+![alt text](./Readme_images/carrito.png "Shopping Cart")
 
 ### Checkout:
 
