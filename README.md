@@ -4,7 +4,6 @@
 
 # Henry
 
-
 ## Nasdrovia
 
 This is a student project we made as part of our education at [Soy Henry](https://www.soyhenry.com/), which consisted of creating a full-stack React application from scratch.
@@ -12,26 +11,29 @@ This is a student project we made as part of our education at [Soy Henry](https:
 ### Our stack of technologies:
 
 - Front End:
-    + HTML - CSS - Javascript
-    + React
-    + React-Bootstrap
-    + Redux
+
+  - HTML - CSS - Javascript
+  - React
+  - React-Bootstrap
+  - Redux
 
 - Back End:
-    + Node.js
-    + Express
-    + Passport
-    + Sequelize
 
-- Database: 
-    + PostgreSQL
+  - Node.js
+  - Express
+  - Passport
+  - Sequelize
+
+- Database:
+  - PostgreSQL
 
 # How to start the project:
 
 If you want to see the page for yourself, you'll need to do the following:
 
 - Clone the repository
-- Create a `.env` file in the `client` folder with the following contents: 
+- Create a `.env` file in the `client` folder with the following contents:
+
 ```
 REACT_APP_API_URL=http://localhost:3001
 ```
@@ -42,6 +44,7 @@ REACT_APP_API_URL=http://localhost:3001
 - Sign up with [Mailgun](https://www.mailgun.com/) and obtain an API key.
 
 - Create a `.env` file in in the `api` folder with the following contents:
+
 ```
 DB_USER={Your postgreSQL user}
 DB_PASSWORD={Your postgreSQL password}
@@ -66,33 +69,30 @@ Email: admin@nasdrovia.com
 Password: admin
 ```
 
-
 # Previews
 
 ### Home page:
 
-![alt text]("Home Page")
+![alt text](./Readme_images/home.png "Home Page")
 
-### Product Page:
-![alt text]( "Product Page")
+### Car:
 
-### Login:
-![alt text]( "Login")
+![alt text](./Readme_images/carrito.png "Car")
 
-### User Profile:
-![alt text]("User Profile")
+### Checkout:
 
-### Admin Control Panel:
-![alt text]( "Admin Control Panel")
+![alt text](./Readme_images/checkout.png "Checkout")
 
-### Purchase Order:
-![alt text]( "Purchase Order Panel")
+### Order:
 
-### 404 Page:
-![alt text]("404 Page")
+![alt text](./Readme_images/order.png "Order ")
 
 # About Us:
 
 We are a group of 5 [Soy Henry](https://www.soyhenry.com/) students. These are our Github accounts:
 
-
+- [Lismairy Alejandra Sánchez Hernández](https://github.com/Lismairy-Sanchez)
+- [Felipe Taboada](https://github.com/ftaboada)
+- [Hernan Rojas](https://github.com/HernanSsj)
+- [Andres Sánchez](https://github.com/andres10sa)
+- [Alejandro Zdut](https://github.com/alezdut)
